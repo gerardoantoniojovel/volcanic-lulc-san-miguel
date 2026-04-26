@@ -74,3 +74,13 @@ var map2025 = annualDW.filter(ee.Filter.eq('year', 2025)).first();
 
 Map.addLayer(map2015, {min: 0, max: 8, palette: palette}, 'Uso de suelo 2015');
 Map.addLayer(map2025, {min: 0, max: 8, palette: palette}, 'Uso de suelo 2025');
+
+// Exportar mapa, cambiar fecha
+// ======================================
+Export.image.toDrive({
+  image: map2025,
+  description: 'Uso_Suelo_SanMiguel_2025_DynamicWorld',
+  region: aoi,
+  scale: 10,
+  maxPixels: 1e13
+});
