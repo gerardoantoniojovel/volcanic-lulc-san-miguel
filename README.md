@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Google%20Earth%20Engine-4285F4)](https://earthengine.google.com)
-[![Conference](https://img.shields.io/badge/IGARSS-2026-blue)](https://www.igarss2026.org)
+
 
 Code repository for the paper:
 
